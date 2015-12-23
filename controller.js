@@ -102,6 +102,7 @@ app.controller('DemoCtrl', DemoCtrl);
 app.service('appService', ['$q', function($q) {
   var apps = [{
       name: 'Who am I',
+<<<<<<< HEAD
       iconurl: 'my.jpg',
       imgurl: 'my.jpg',
       content: 'UDA UI Engineer who wants to make rich user experience products and want TDC to be known for UI too and not just the most popular data warehouse DBMS.'
@@ -116,6 +117,22 @@ app.service('appService', ['$q', function($q) {
       imgurl: 'http://muppetmindset.files.wordpress.com/2012/02/8ff4c-ms_sc_05.jpg',
       content: 'I get my directions for a long term vision from Ryan, Kyle, Eran & Pooja. We hope to build some brilliant products here.'
   }*/, {
+=======
+      iconurl: 'https://lh3.googleusercontent.com/-KGsfSssKoEU/AAAAAAAAAAI/AAAAAAAAAC4/j_0iL_6y3dE/s96-c-k-no/photo.jpg',
+      imgurl: 'http://muppethub.com/wp-content/uploads/2014/02/Animal-7.png',
+      content: 'UDA UI Engineer who wants to make rich user experience products and want TDC to be known for UI too and not just the most popular data warehouse DBMS.'
+  }, {
+      name: 'My friends',
+      iconurl: 'https://yt3.ggpht.com/-cEjxni3_Jig/AAAAAAAAAAI/AAAAAAAAAAA/cMW2NEAUf-k/s88-c-k-no/photo.jpg',
+      imgurl: 'http://thebittybakeshop.com/wp-content/uploads/2014/07/Cookie-Monster.jpg',
+      content: 'Brian, Salil, Vinay, Puneet & Jeremy who have always been supportive and made me feel extremely comfortable from day one. Its a very open & positive environment to work.'
+  }, {
+      name: 'Direction',
+      iconurl: 'https://goingforwardblog.files.wordpress.com/2013/01/swedish-chef.jpg',
+      imgurl: 'http://muppetmindset.files.wordpress.com/2012/02/8ff4c-ms_sc_05.jpg',
+      content: 'I get my directions for a long term vision from Ry, Ky, Er & Po. We hope to build some brilliant products here.'
+  }, {
+>>>>>>> b687ada67612e86379ed4ef1b1eef037557fd3c4
       name: 'TDC',
       iconurl: 'https://lh5.googleusercontent.com/-c5rVqhf66e4/UVIKJ3fXLFI/AAAAAAAAACU/s-TU4ER7-Ro/w800-h800/kimmie.jpg',
       imgurl: 'cookie.jpg',
@@ -155,6 +172,7 @@ app.config(function($mdIconProvider) {
       .iconSet('avatars', 'https://raw.githubusercontent.com/angular/material/master/docs/app/icons/avatar-icons.svg', 24)
       .defaultIconSet('https://raw.githubusercontent.com/google/material-design-icons/master/sprites/svg-sprite/svg-sprite-action.svg', 24);
 });
+<<<<<<< HEAD
 
 
 app
@@ -177,3 +195,5 @@ app
   });
 
 });
+=======
+>>>>>>> b687ada67612e86379ed4ef1b1eef037557fd3c4
